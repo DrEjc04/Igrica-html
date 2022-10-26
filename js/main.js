@@ -17,12 +17,12 @@ window.addEventListener("load", function(){
 
 document.body.addEventListener("keydown", function (e)
 {
-    keys[e.keyCode] = true;
+    keys[e] = true;
 }
 );
 
 document.body.addEventListener("keyup", function (e)
 {
-    keys[e.keyCode] = false;
+    keys[e] = false;
 }
 );
